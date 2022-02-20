@@ -1,0 +1,109 @@
+.containerHeader {
+    position: absolute;
+    font-weight: bold;
+}
+
+.img {
+    background-image: url('../../../Assets/Images/Logo-BRANCA.png');
+    background-repeat: no-repeat;
+    min-height: 6.42857142857142rem;
+    min-width: 8.571428571428571rem;
+    object-fit: cover;
+    display: flex;
+}   
+
+
+.containerHeader:hover .contentHeader a  {
+    background: #FFF;
+    transition: 1s;
+    color: #000;
+
+}
+.containerHeader:hover .contentHeader   {
+    background: #FFF;
+
+}
+
+.containerHeader:hover .buttonContato   {
+    transition: 1s;
+    background-color: #EBF3ED;
+
+}
+.containerHeader:hover .img   {
+    background-image: url('../../../Assets/Images/Logo-RC.png');
+    background-repeat: no-repeat;
+    transition: 1s;
+    min-height: 6.42857142857142rem;
+    min-width: 8.571428571428571rem;
+    object-fit: cover;
+    display: flex;
+}
+.containerHeader:hover .buttonContato span   {
+    color: #296133;
+}
+.containerHeader:hover .contentHeader    {
+    background-color: #FFF;
+}
+
+.contentHeader{
+    display: flex;
+    width: 100vw;
+    padding: 2.5rem;
+    color: #FFF;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.contentHeader ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 2.5rem;
+}
+
+.contentHeader ul li {
+    list-style: none;
+}
+.contentHeader ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+.containerHeader .contentHeader ul li a:hover {
+    transition: 0.1s;
+    color: #296133;
+
+}
+
+.buttonContato {
+    border: none;
+    background: transparent;
+    border: 1px solid #FFF;
+    border-radius: 20px;
+    padding: 0.785rem 1.214rem 0.785rem 1.214rem;
+    display: flex;
+   justify-content: center;
+   align-items: center;
+   font-weight: bold;
+    
+}
+
+.buttonContato span {
+    align-self: center;
+    text-align: center;
+    margin: 0 auto;
+    color: #FFF;
+}
+
+@media (max-width: 1399px)
+{
+    .contentHeader ul {
+        display: none;
+    }
+    .contentHeader button {
+        display: none;
+    }
+    
+    .contentHeader {
+        justify-content: flex-start;
+    }
+}

@@ -1,0 +1,98 @@
+.containerSectionBoi {
+  display: flex;
+  flex-direction: row;
+  width: 100vw;
+  min-height: 48.5714rem;
+}
+
+.containerCard {
+  display: flex;
+  width: 47.1428rem;
+}
+
+
+.containerCard span {
+  font-weight: normal;
+  margin-top: 2.357rem;
+  font-size: 1.571rem;
+}
+.containerCard h1 {
+  font-weight: bold;
+  font-weight: normal;
+  font-size: 3.714rem;
+
+}
+
+.Card1 {
+  display: flex;
+  width: 100%;
+  color: #FFF;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../../Assets/Images/BG-Gado1.png');
+}
+.Card2 {
+  display: flex;
+  width: 100%;
+  font-size: 3.714rem;
+  color: #FFF;
+  flex-direction: column;
+  text-align: center;
+  background-size: cover;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-image: url('../../../Assets/Images/BG-Gado2.png');
+}
+.Card3 {
+  display: flex;
+  width: 100%;
+  font-size: 3.714rem;
+  color: #FFF;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url('../../../Assets/Images/BG-feno3.png');
+}
+
+.buttonBigCards {
+  outline: none;
+  background: none;
+  border: 1px solid #FFF;
+  border-radius: 30px;
+  padding: 1rem;
+  color: #FFF;
+  min-width: 3.857rem;
+  margin-top: 2.714rem;
+  margin-bottom: 5.714rem;
+  transition: 0.5s;
+}
+
+.buttonBigCards:hover {
+  background: #EDA72D;
+  color: #040a05;
+  border: none;
+  
+}
+
+.carouselBoi {
+  display: none ;
+}
+
+@media (max-width: 999px)
+{
+  .containerSectionBoi {
+    display: none !important;
+  }
+
+  .carouselBoi {
+   display: flex;
+  }
+}

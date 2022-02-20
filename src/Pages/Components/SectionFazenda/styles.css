@@ -1,0 +1,229 @@
+.contentFazenda {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.contentFazenda h1 {
+  font-weight: bold;
+  margin-top: 5rem;
+  margin-bottom: 3.571rem;
+}
+
+.contentImages span {
+  color: #eda72d;
+  transition: all .5s;
+}
+.contentFazenda h2 {
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-bottom: 2.285rem;
+  color: #FFF;
+  transition: all .5s;
+}
+
+.containerSectionFazenda {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  width: 100vw;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("../../../Assets/Images/BackGroundWhite.png");
+}
+
+.contentImagesPrincipal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.card:hover .buttonDiv {
+ 
+  display: block;
+ 
+}
+
+.contentImages {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 2.642rem;
+  justify-content: center;
+  margin-top: 1.428rem;
+}
+
+.card {
+  height: 25.142rem;
+  width: 61.458333333333%;
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  word-wrap: break-word;
+  overflow-y: hidden;
+  background-image: url("../../../Assets/Images/CardPrincipal.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  border: 1px solid rgba(0, 0, 0, 0.125);
+  border-radius: 0.25rem;
+}
+
+
+
+.contentImages {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 61.458333333333%;
+  justify-content: space-between;
+  margin: 0 !important;
+  
+}
+
+
+.cardEditCarousel1{
+    
+    margin-top: 1.571rem;
+    width: 20.142rem;
+    background: url('../../../Assets/Images/CardS1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15.714rem;
+    margin-bottom: 10.857rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+
+  }
+  .cardEditCarousel2{
+    margin-top: 1.571rem;
+    width: 20.142rem;
+    background: url('../../../Assets/Images/CardS2.png') ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 15.714rem;
+    margin-bottom: 10.857rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+  }
+  .cardEditCarousel3{
+    margin-top: 1.571rem;
+    width: 20.142rem;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background: url('../../../Assets/Images/CardS3.png') ;
+    height: 15.714rem;
+    margin-bottom: 10.857rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+    flex-wrap: wrap;
+    cursor: pointer;
+ 
+}
+
+
+.cardEditCarousel1:hover  span {
+  transform: scale(1.1);
+}
+.cardEditCarousel1:hover  h2 {
+  transform: scale(1.1);
+}
+.cardEditCarousel2:hover  span {
+  transform: scale(1.1);
+}
+.cardEditCarousel2:hover  h2 {
+  transform: scale(1.1);
+}
+.cardEditCarousel3:hover  span {
+  transform: scale(1.1);
+}
+.cardEditCarousel3:hover  h2 {
+  transform: scale(1.1);
+}
+
+
+.card-img-overlay {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 !important;
+  transition: 1s;
+}
+.card-img-overlay:hover{
+  transform: scale(1.1);
+}
+.card-img-overlay h2 {
+  font-size: 22px;
+  font-weight: bold;
+  color: #fff;
+  margin-bottom: 1.428rem;
+}
+
+.card-img-overlay span {
+  color: #eda72d;
+}
+.buttonCardFazenda span {
+  color: #fff;
+}
+
+.buttonCardFazenda {
+  outline: none;
+  background: none;
+  border: 1px solid #fff;
+  border-radius: 30px;
+  height: 2.857rem;
+  width: 10rem;
+  color: #fff;
+  transition: all 0.3s;
+  margin-bottom: 2.928rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow-y: hidden;
+}
+
+.buttonDiv {
+  display: none;
+}
+
+@media (max-width: 1705px)
+{
+  .contentImages {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cardEditCarousel1 {
+    width: 100%;
+    margin-top: 1.428rem;
+    margin-bottom: 1.428rem;
+  }
+  .cardEditCarousel2 {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1.428rem;
+  }
+  .cardEditCarousel3 {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 1.428rem;
+  }
+}

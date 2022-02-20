@@ -1,0 +1,52 @@
+.containerSectionFooter {
+    display: flex;
+    min-height: 761px;
+    width: 100vw;
+    justify-content: center;
+    background: #040A05;
+}
+
+.contentSectionFooter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.contentSectionFooter h1 {
+   margin-top: 5.071rem;
+   margin-bottom: 3.571rem;
+   font-size: 2.5rem;
+   font-weight: bold;
+   color: #FFF;
+}
+
+.buttonCarouselFooter {
+    outline: none;
+    background: none;
+    border: 1px solid #FFF;
+    border-radius: 30px;
+    padding: 1rem;
+    color: #FFF;
+    transition: all .3s;
+    min-width: 250px;
+    margin-top: 2.714rem;
+    margin-bottom: 5.714rem;
+}
+
+.buttonCarouselFooter:hover {
+    transform: scale(1.1); 
+
+}
+
+.lcUbOd {
+    background-color: #FFF !important;
+    border: #FFF !important;
+    box-shadow: none !important;
+}
+
+.eaptOe {
+    box-shadow: none !important;
+    border: 1px solid #FFF !important;
+}
