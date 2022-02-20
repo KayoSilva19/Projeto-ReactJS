@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/Projeto-ReactJS/static/css/main.a3092109.css",
+    "main.js": "/Projeto-ReactJS/static/js/main.5f6272a9.js",
+    "static/media/Banner02.png": "/Projeto-ReactJS/static/media/Banner02.4b5801387bcbb3ba3f6e.png",
+    "static/media/Banner01.png": "/Projeto-ReactJS/static/media/Banner01.4cfa62e5e59245b5ef6c.png",
+    "static/media/BG-Gado1.png": "/Projeto-ReactJS/static/media/BG-Gado1.6954bc2f3fdd9e47624b.png",
+    "static/media/BG-Gado2.png": "/Projeto-ReactJS/static/media/BG-Gado2.28c1bf28579652c2a22d.png",
+    "static/media/BG-feno3.png": "/Projeto-ReactJS/static/media/BG-feno3.e1f134c51f68180aa117.png",
+    "static/media/CardPrincipal.png": "/Projeto-ReactJS/static/media/CardPrincipal.04f97d0d1c517c053509.png",
+    "static/media/ImageThree.png": "/Projeto-ReactJS/static/media/ImageThree.202c00d765dc5bf507f2.png",
+    "static/media/ImgOne.png": "/Projeto-ReactJS/static/media/ImgOne.cd0c84ea876c60d59953.png",
+    "static/media/silderImg2.png": "/Projeto-ReactJS/static/media/silderImg2.f9e5580e440b2b44c422.png",
+    "static/media/sliderImage1.png": "/Projeto-ReactJS/static/media/sliderImage1.c615cade3ee8ea49c44a.png",
+    "static/media/CardS1.png": "/Projeto-ReactJS/static/media/CardS1.ecb583a0ee5f6e1a1d21.png",
+    "static/media/CardS3.png": "/Projeto-ReactJS/static/media/CardS3.3cc1d8b2a3fbb4bc3aa6.png",
+    "static/media/silderImg3.png": "/Projeto-ReactJS/static/media/silderImg3.b6eaba6dcf46d104621c.png",
+    "static/media/CardS2.png": "/Projeto-ReactJS/static/media/CardS2.d4248807fff9a4dcea26.png",
+    "static/media/ImageTwo.png": "/Projeto-ReactJS/static/media/ImageTwo.eee92f0d0481134846e0.png",
+    "static/media/BackGroundWhite.png": "/Projeto-ReactJS/static/media/BackGroundWhite.3c0facc1e77cd2d437aa.png",
+    "static/media/footerBackGround.png": "/Projeto-ReactJS/static/media/footerBackGround.916289c4aa701c189274.png",
+    "index.html": "/Projeto-ReactJS/index.html",
+    "main.a3092109.css.map": "/Projeto-ReactJS/static/css/main.a3092109.css.map",
+    "main.5f6272a9.js.map": "/Projeto-ReactJS/static/js/main.5f6272a9.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a3092109.css",
+    "static/js/main.5f6272a9.js"
+  ]
+}
