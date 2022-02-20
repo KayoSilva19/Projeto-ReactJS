@@ -30,49 +30,49 @@ export default function CarouselBoi() {
                 <Container>
                     <Carousel breakPoints={breakPoints}>
                         <Card>
-                        <Item>
+                            <Item>
                                 <img src={ImageOne} alt=" Carousel" />
-                            <ContainerText>
-                                <CenterDiv>
-                                    <h1>Rebanho comercial</h1>
-                                    <span>Gado de alto padrão <br />
-                                        e qualidade</span>
-                                    <button className="buttonBigCards" type="submit">
-                                        <span>SAIBA MAIS</span>
-                                    </button>
-                                </CenterDiv>
-                            </ContainerText>
+                                <ContainerText>
+                                    <CenterDiv>
+                                        <h1>Rebanho comercial</h1>
+                                        <span>Gado de alto padrão <br />
+                                            e qualidade</span>
+                                        <button className="buttonBigCards" type="submit">
+                                            <span>SAIBA MAIS</span>
+                                        </button>
+                                    </CenterDiv>
+                                </ContainerText>
                             </Item>
                         </Card>
                         <Card>
-                        <Item>
+                            <Item>
                                 <img src={ImageTwo} alt=" Carousel" />
+                                <ContainerText>
+                                    <CenterDiv>
+                                        <h1>Rebanho comercial</h1>
+                                        <span>Gado de alto padrão <br />
+                                            e qualidade</span>
+                                        <button className="buttonBigCards" type="submit">
+                                            <span>SAIBA MAIS</span>
+                                        </button>
+                                    </CenterDiv>
+                                </ContainerText>
                             </Item>
-                            <ContainerText>
-                                <CenterDiv>
-                                    <h1>Rebanho comercial</h1>
-                                    <span>Gado de alto padrão <br />
-                                        e qualidade</span>
-                                    <button className="buttonBigCards" type="submit">
-                                        <span>SAIBA MAIS</span>
-                                    </button>
-                                </CenterDiv>
-                            </ContainerText>
                         </Card>
                         <Card>
-                        <Item>
+                            <Item>
                                 <img src={ImageThree} alt=" Carousel" />
+                                <ContainerText>
+                                    <CenterDiv>
+                                        <h1>Rebanho comercial</h1>
+                                        <span>Gado de alto padrão <br />
+                                            e qualidade</span>
+                                        <button className="buttonBigCards" type="submit">
+                                            <span>SAIBA MAIS</span>
+                                        </button>
+                                    </CenterDiv>
+                                </ContainerText>
                             </Item>
-                            <ContainerText>
-                                <CenterDiv>
-                                    <h1>Rebanho comercial</h1>
-                                    <span>Gado de alto padrão <br />
-                                        e qualidade</span>
-                                    <button className="buttonBigCards" type="submit">
-                                        <span>SAIBA MAIS</span>
-                                    </button>
-                                </CenterDiv>
-                            </ContainerText>
                         </Card>
                     </Carousel>
                 </Container>

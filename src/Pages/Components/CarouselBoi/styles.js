@@ -16,7 +16,7 @@ export const Card = styled.div`
   display: flex;
   cursor: pointer;
   flex-direction: column;
-  max-height:  30.142rem;
+  background: #EDA72D;
   width: 100% !important;
   border-radius: 5px;
   color: #FFF;
